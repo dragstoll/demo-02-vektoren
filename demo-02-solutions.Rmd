@@ -201,7 +201,7 @@ ydm(210412)
 # Nützliche Funktionen aus dem lubridate Package
 
 day(vektor_datetime)
-month(vektor_datetime, label = TRUE, abbr = FALSE, locale = "de_CH.UTF-8") # In lokale Sprache ändern
+month(vektor_datetime, label = TRUE, abbr = FALSE, locale = "German_Switzerland.1252") # In lokale Sprache ändern
 Sys.getlocale("LC_TIME")
 
 # Google: change locale when working on Rstudio Cloud
@@ -210,7 +210,7 @@ Sys.getlocale("LC_TIME")
 # Google: Switzerland UTF-8 based locales
 
 week(vektor_datetime)
-wday(vektor_datetime, label = TRUE, abbr = FALSE, week_start = 1, locale = "de_CH.UTF-8")
+wday(vektor_datetime, label = TRUE, abbr = FALSE, week_start = 1, locale = "German_Switzerland.1252")
 
 
 ```
